@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --color-body: hsl(210, 46%, 95%);
+  --color-head: hsl(217, 19%, 35%);
+  --color-paragraph: hsl(214, 17%, 51%);
+
+  --font-manrope: "Manrope", sans-serif;
+
+  --text-paragraph-clamp: clamp(0.813rem, 0.746rem + 0.282vw, 1rem);
+}
